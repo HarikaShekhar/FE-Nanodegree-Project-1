@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Harika Shekhar - Personal Portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="http://code.jquery.com/color/jquery.color-2.1.2.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/main.css">
+	<link href='https://fonts.googleapis.com/css?family=Lobster|Titillium+Web' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="container-fluid box">
+	<!-- Fixed Navbar with links -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">HarikaShekhar</a>
+			</div> <!-- .navbar-header -->
+			<div class="collapse navbar-collapse" id="site-nav">
+				<ul class="nav navbar-nav ">
+					<li><a href="#summary">Summary</a></li>
+					<li><a href="#my-motto">Motto</a></li>
+					<li><a href="#featured-header">Featured Work</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav> <!-- navbar -->
+
+	<main>
+        <section class="col-sm-12 text-center" id="mainheader">
+        	<div class="header-content">
+	            <hr class="scrollfade" />
+	        	<h1 class="author-name scrollfade">Harika Shekhar</h1>
+	        	<h4 class="author-title scrollfade">FRONT-END ENGINEER</h4>
+	          	<p class="tagline scrollfade">The best of me is yet to come</p>
+	            <hr class="scrollfade" />
+          	</div>
+          	<a class="cover-arrow" href="#summary">
+				<span class="glyphicon glyphicon-chevron-down" ></span>
+          	</a>
+        </section>
+        <section class="col-sm-12" id="summary">
+        	<article class="description">
+	    		<p> Hi, my name is Harika. I love creating beautiful & functional user experiences. Front End Developer who focuses on writing clean, elegant and efficient code. Love HTML, CSS and a touch of jQuery.</p>
+	    		<p>When I am not coding or pushing pixels you will find me painting, sketching, playing Mortal Combat on PS4 or googling around interesting stuff.</p>
+			</article>
+        </section> <!-- /summary -->
+		<section id="banner">
+        	<picture>
+        		<!-- TODO: Create images for different widths and update code -->
+            	<source media="(min-width: 750px)" srcset="images/banner-1600_large_2x.jpg 2x, images/banner-800_large_1x.jpg" />
+          		<source media="(min-width: 500px)" srcset="images/banner_medium.jpg" />
+          		<img src="images/banner.jpg" alt="Old abandoned ship at Point Reyes, California" class="image-responsive">
+        	</picture>
+		</section> <!-- .banner -->
+
+		<section id="my-motto">
+			<article class="motto-content text-center">
+				<h1>My Motto</h1>
+				<p>Imagination is more important than knowledge.</p>
+			</article>
+		</section>
+
+		<div id="featured-header" class="row">
+			<div class="col-sm-12">
+				<h2 class="text-muted">FEATURED WORK : My Photography and Art Work.</h2>
+			</div>
+		</div>
+
+		<section class="featured-work text-uppercase">
+			<div class="row">
+				<figure class="col-sm-4">
+					<picture>
+						<!-- TODO: Create images for different widths and update code -->
+		          		<source media="(min-width: 401px) and (max-width: 767px)" srcset="images/pfiffer-700_medium.jpg" />
+		          		<img src="images/pfiffer-400_small_1x.jpg" alt="Pfiffer Beach, California" class="image-responsive">
+	        		</picture>
+	        		<figcaption>Pfiffer Beach, California</figcaption>
+				</figure>
+
+				<figure class="col-sm-4">
+					<picture>
+						<!-- TODO: Create images for different widths and update code -->
+		            	<source media="(min-width: 401px) and (max-width: 767px)" srcset="images/blowhole-700_medium.jpg" />
+		          		<img src="images/blowhole-400_small_1x.jpg" alt="Blow Hole, Maui, Hawaii" class="image-responsive">
+	        		</picture>
+	        		<figcaption>Blow Hole, Maui, Hawaii</figcaption>
+				</figure>
+
+				<figure class="col-sm-4">
+					<picture>
+						<!-- TODO: Create images for different widths and update code -->
+		            	<source media="(min-width: 401px) and (max-width: 767px)" srcset="images/sfbridge-700_medium.jpg" />
+		          		<img src="images/sfbridge-400_small_1x.jpg" alt="San Fransisco Bridge, California" class="image-responsive">
+	        		</picture>
+	        		<figcaption>San Fransisco Bridge, California</figcaption>
+				</figure>
+				</div> <!-- .row -->
+				<div class="row">
+					<figure class="col-sm-4">
+						<picture>
+							<!-- TODO: Create images for different widths and update code -->
+			            	<source media="(min-width: 401px) and (max-width: 767px)" srcset="images/cherrytree-700_medium.jpg" />
+			          		<img src="images/cherrytree-400_small_1x.jpg" alt="A Cherry Tree Painting" class="image-responsive">
+		        		</picture>
+		        		<figcaption>Cherry Tree Acrylic Painting</figcaption>
+					</figure>
+
+					<figure class="col-sm-4">
+						<picture>
+							<!-- TODO: Create images for different widths and update code -->
+			            	<source media="(min-width: 401px) and (max-width: 767px)" srcset="images/paintedbottles-700_medium.jpg" />
+			          		<img src="images/paintedbottles-400_small_1x.jpg" alt="Spray Painted wine bottles" class="image-responsive">
+		        		</picture>
+		        		<figcaption>Spray painted wine bottles</figcaption>
+					</figure>
+
+					<figure class="col-sm-4">
+						<picture>
+							<!-- TODO: Create images for different widths and update code -->
+			            	<source media="(min-width: 401px) and (max-width: 767px)" srcset="images/paintedrocks-700_medium.jpg" />
+			          		<img src="images/paintedrocks-400_small_1x.jpg" alt="Painted rocks" class="image-responsive">
+		        		</picture>
+		        		<figcaption>Painted rocks</figcaption>
+					</figure>
+					</div> <!-- .row -->
+		</section>
+	</main>
+
+</div> <!-- .container -->
+<script src="./main.js"></script>
+</body>
+</html>
